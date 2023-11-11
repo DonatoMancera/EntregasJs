@@ -3,10 +3,11 @@
 
 
 let salir = false;
+let num;
 
 while(!salir){
     let opcion = prompt('para sacar la tabla de multiplicar de un numero: #1 \npara sacar la potencia de 1 a 10 de un numero: #2 \n SALIR: #3 ');
-    let num;
+   
     switch(opcion) {
     case '1':
         num = +prompt('Ingresa un numero para la tabla de multiplicar');
