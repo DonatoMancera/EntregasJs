@@ -41,4 +41,3 @@ function potencia(num){
         console.log(num + ' ^ ' + i + ' = ' + Math.pow(num,i));
     }
 }
-sw
